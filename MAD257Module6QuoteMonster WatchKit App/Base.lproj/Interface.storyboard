@@ -21,14 +21,15 @@
                             <color key="textColor" red="0.08489882319" green="0.91957763920000002" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                             <fontDescription key="font" type="boldSystem" pointSize="15"/>
                         </label>
-                        <textField width="1" height="99" alignment="left" text="Text" id="0qd-gG-OC7">
-                            <color key="textColor" red="1" green="0.1317928555" blue="0.58968904759999996" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                        </textField>
+                        <label width="136" alignment="center" textAlignment="center" numberOfLines="0" id="HlF-S0-tVn">
+                            <color key="textColor" red="1" green="0.1857388616" blue="0.57339501380000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <fontDescription key="font" type="italicSystem" pointSize="15"/>
+                        </label>
                     </items>
                     <connections>
                         <outlet property="hitMeButton" destination="opO-GN-eTw" id="TjH-g0-7Eh"/>
                         <outlet property="quoteLabel" destination="4cj-xl-hb7" id="vWX-o2-2Lv"/>
-                        <outlet property="quoteOutputText" destination="0qd-gG-OC7" id="8Cs-1H-uK8"/>
+                        <outlet property="quoteOutputLabel" destination="HlF-S0-tVn" id="OMC-XU-t9A"/>
                     </connections>
                 </controller>
             </objects>
