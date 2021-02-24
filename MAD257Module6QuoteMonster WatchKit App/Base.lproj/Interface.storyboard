@@ -11,19 +11,20 @@
             <objects>
                 <controller id="AgC-eL-Hgc" customClass="InterfaceController" customModule="MAD257Module6QuoteMonster_WatchKit_App" customModuleProvider="target">
                     <items>
-                        <button width="121" alignment="center" title="Hit Me with a Quote" id="opO-GN-eTw">
+                        <button width="99" height="32" alignment="center" title="Hit Me with a Quote" id="opO-GN-eTw">
                             <color key="backgroundColor" red="0.29005649680000001" green="0.35030967769999999" blue="0.99336069819999995" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                            <fontDescription key="font" type="system" pointSize="12"/>
                             <connections>
                                 <action selector="hitMeButtonPressed" destination="AgC-eL-Hgc" id="WxC-Y2-2eK"/>
                             </connections>
                         </button>
-                        <label width="136" height="30" alignment="center" text="~ Quote Monster ~" textAlignment="center" id="4cj-xl-hb7">
+                        <label width="136" height="35" alignment="center" text="~ Quote Monster ~" textAlignment="center" numberOfLines="0" id="4cj-xl-hb7">
                             <color key="textColor" red="0.08489882319" green="0.91957763920000002" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                            <fontDescription key="font" type="boldSystem" pointSize="15"/>
+                            <fontDescription key="font" type="boldSystem" pointSize="13"/>
                         </label>
-                        <label width="136" alignment="center" textAlignment="center" numberOfLines="0" id="HlF-S0-tVn">
+                        <label width="136" height="77" alignment="center" textAlignment="center" numberOfLines="0" id="HlF-S0-tVn">
                             <color key="textColor" red="1" green="0.1857388616" blue="0.57339501380000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                            <fontDescription key="font" type="italicSystem" pointSize="15"/>
+                            <fontDescription key="font" type="italicSystem" pointSize="13"/>
                         </label>
                     </items>
                     <connections>
@@ -33,7 +34,7 @@
                     </connections>
                 </controller>
             </objects>
-            <point key="canvasLocation" x="220" y="359"/>
+            <point key="canvasLocation" x="220" y="359.5"/>
         </scene>
         <!--Static Notification Interface Controller-->
         <scene sceneID="AEw-b0-oYE">

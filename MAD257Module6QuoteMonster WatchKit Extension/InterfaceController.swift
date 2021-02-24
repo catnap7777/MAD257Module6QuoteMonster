@@ -27,7 +27,15 @@ class InterfaceController: WKInterfaceController {
         ("Benjamin Franklin","Well done is better than well said."),
         ("Eleanor Roosevelt","The future belongs to those who believe in the beauty of their dreams."),
         ("Michael Jordan","I’ve failed over and over and over again in my life and that is why I succeed."),
-        ("Oscar Wilde","Be yourself; everyone else is already taken.")
+        ("Oscar Wilde","Be yourself; everyone else is already taken."),
+        ("Monty Python","It's just a flesh wound."),
+        ("Airplane (1980)","I am serious. And don't call me Shirley."),
+        ("The Incredibles (2004)","Greater good?' I am your wife! I'm the greatest good you're ever gonna get!"),
+        ("Lilo & Stitch","I like fluffy!"),
+        ("Tony Stark, The Avengers","Doth mother know you weareth her drapes?"),
+        ("Drax, Guardians of the Galaxy","Nothing goes over my head. My reflexes are too fast. I would catch it."),
+        ("Sherk, Sherk 2","Donkey, You Have The Right To Remain Silent. What You Lack Is The Capacity.")
+//        ("KMmmmmmmmmmmmmmmmmmmmmm1234mmmmmmmmmmmmmmmmmmm","Test to see how long quote can be and if it can scroll1234567891012345678910123456789101234567891012345678910123456781234567891012345678910aaaa")
         ]
     
     override func awake(withContext context: Any?) {
@@ -39,7 +47,7 @@ class InterfaceController: WKInterfaceController {
     @IBAction func hitMeButtonPressed() {
        quoteLabel.setText("Getting a quote...")
         DispatchQueue.main.asyncAfter(deadline: .now() + 0.5) {
-            let randomInt = Int.random(in: 0...9)
+            let randomInt = Int.random(in: 0...16)
             self.quoteOutputLabel.setText(self.quoteArray[randomInt].quote)
             self.quoteLabel.setText(self.quoteArray[randomInt].author)
         }
