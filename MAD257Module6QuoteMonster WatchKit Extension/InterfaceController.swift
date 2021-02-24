@@ -48,7 +48,6 @@ class InterfaceController: WKInterfaceController {
     @IBAction func hitMeButtonPressed() {
         
         quoteLabel.setText("Getting a quote...")
-        quoteLabel.
         
         DispatchQueue.main.asyncAfter(deadline: .now() + 0.5) {
             let randomInt = Int.random(in: 0...16)
