@@ -41,11 +41,15 @@ class InterfaceController: WKInterfaceController {
     override func awake(withContext context: Any?) {
         super.awake(withContext: context)
         
+        
         // Configure interface objects here.
     }
     
     @IBAction func hitMeButtonPressed() {
-       quoteLabel.setText("Getting a quote...")
+        
+        quoteLabel.setText("Getting a quote...")
+        quoteLabel.
+        
         DispatchQueue.main.asyncAfter(deadline: .now() + 0.5) {
             let randomInt = Int.random(in: 0...16)
             self.quoteOutputLabel.setText(self.quoteArray[randomInt].quote)
